@@ -65,7 +65,7 @@ A proposta combina:
 
 ## 📘 Licença
 
-Este projeto é open source e pode ser utilizado, modificado e compartilhado livremente sob a licença [MIT](LICENSE).
+Este projeto é open source e pode ser utilizado, modificado e compartilhado livremente sob a licença.
 
 ---
 
