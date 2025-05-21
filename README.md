@@ -58,7 +58,7 @@ A proposta combina:
 
 ## 📷 Ilustração Técnica
 
-![Cooler com Bloco Ativo e Vórtice]()
+![[Cooler com Bloco Ativo e Vórtice](https://github.com/joenebotelho/Projeto-De-Cooler-Dissipa-a-Ar/blob/master/projeto%20cooler%20revis%C3%A3o%202.png)]()
 
 ---
 
