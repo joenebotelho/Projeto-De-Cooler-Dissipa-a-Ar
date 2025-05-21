@@ -1,27 +1,67 @@
-# Projeto de Cooler com Fluxo Duplo e Dissipador com Cavidades Ativas
+# Sistema de Dissipação com Bloco de Cobre e Cooler de Fluxo Duplo com Vórtice Ativo
 
-Este repositório apresenta uma proposta inovadora de sistema de resfriamento para processadores, combinando dois conceitos principais:
+Este repositório apresenta uma proposta inovadora e compatível com processadores modernos para sistema de resfriamento. A solução mantém o IHS (Integrated Heat Spreader) intacto, utilizando um bloco intermediário com cavidades internas e um cooler com vórtice espiralado e aletas externas que trabalham em conjunto para aumentar a eficiência térmica.
 
-- **Cooler com vórtice central e fluxo lateral**
-- **Bloco dissipador com cavidades internas para fluxo de ar forçado**
+---
 
 ## 🧠 Conceito
 
-A solução substitui o encapsulamento tradicional (IHS) do processador por uma estrutura com cavidades internas que permitem a circulação de ar por atrito. Um cooler especial, com design de ventoinha dupla (centro + periferia), direciona o ar para dentro dessas cavidades e também ao redor do processador, evitando bolsões de calor.
+A proposta combina:
 
-### Fluxos de ar:
+- Um **bloco de dissipação em cobre com 8 mm de espessura**, canalizado internamente;
+- Um **cooler com vórtice helicoidal central** que gera turbulência;
+- Um **anel de aletas externas** que pressiona o fluxo de ar para o centro.
 
-- 🔁 **Fluxo Central (Vórtice):** Injeta ar frio diretamente nas cavidades internas do dissipador.
-- 🔄 **Fluxo Periférico:** Sopa o ar ao redor do socket, eliminando calor residual.
+---
 
+## 🧩 Estrutura e Funcionamento
 
-## ✅ Vantagens da proposta
+### Bloco de Dissipação Ativa em Cobre
 
-- Substitui o bloco de alumínio tradicional por cavidades eficientes.
-- Reduz peso e custo do sistema térmico.
-- Aumenta eficiência térmica com geometria ativa.
-- Evita hotspots e melhora o resfriamento ao redor da CPU.
-- Ideal para projetos open hardware, entusiastas e testes de bancada.
+- Bloco de cobre com alta condutividade térmica.
+- Canaletas internas direcionadas para as bordas.
+- Transferência térmica por atrito interno com o ar forçado.
+
+### Cooler com Vórtice Retorcido (Centro)
+
+- Aletas centrais helicoidais criam turbulência.
+- Direcionamento do fluxo para o interior do bloco.
+- Fluxo não fechado, maior velocidade de entrada.
+
+### Aletas Externas Direcionais (Anel)
+
+- Aletas inclinadas empurram o ar para o centro.
+- Aumentam a pressão e alimentam o vórtice.
+- Promovem compressão do fluxo central.
+
+### Ciclo de Ar
+
+1. Ar entra pela ventoinha.
+2. Vórtice central injeta o ar nas cavidades.
+3. Fluxo percorre canaletas e absorve calor.
+4. Ar quente sai pelas laterais.
+5. Excesso de ar remove bolsões térmicos no entorno.
+
+---
+
+## ✅ Vantagens Técnicas
+
+| Característica                     | Benefício direto                                 |
+|-----------------------------------|--------------------------------------------------|
+| Bloco de cobre com canaletas      | Dissipação ativa com alta condutividade térmica  |
+| Vórtice helicoidal central        | Geração de turbulência e maior troca de calor    |
+| Aletas externas direcionais       | Pressão contínua para alimentar o fluxo central  |
+| Estrutura modular não invasiva    | Compatível com qualquer CPU com IHS              |
+| Expulsão lateral de ar quente     | Evita hotspots e resfria também o entorno da CPU |
+
+---
+
+## 📷 Ilustração Técnica
+
+![Cooler com Bloco Ativo e Vórtice]()
+
+---
+
 
 ## 📘 Licença
 
@@ -30,4 +70,4 @@ Este projeto é open source e pode ser utilizado, modificado e compartilhado liv
 ---
 
 **Autor:** Joenes  
-**Contato:** [joenebotelho@live.com]
+**Ano:** 2025
